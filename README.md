@@ -1,5 +1,4 @@
 
-
 # Welcome to the Crossword-Puzzle-Solver Wiki!
 
 ## Table of Contents
@@ -10,7 +9,7 @@
 - [Phase ](#Phase)
 
 
-## Introduction
+## <a name="Introduction"></a> Introduction
 
 This is a C program to solve a crossword puzzle. This program should read, from standard input, a puzzle grid and a set of words and should print the solved puzzle to standard output. 
 
