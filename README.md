@@ -29,7 +29,7 @@ The completed puzzle, the message “IMPOSSIBLE” or “INVALID INPUT” for in
  Most testing will be on legal input; however, this  program may be tested on invalid input. When it determines its invalid input, it prints“INVALID INPUT”. 
 
 ## Phase<>
-###Phase I - Static memory allocation of array
+**Phase I - Static memory allocation of array** <br>
 Static Memory allocation in C allocates size and location to a variable 
 that is fixed. The memory is allocated at the compile time (before the program is executed), it is known as compile time allocation. It uses a stack data structure. So, it will remain from the beginning to the end of the program. The execution time is efficiently controlled. This memory 
 allocation is easy to use but it is less efficient than dynamic memory allocation.
