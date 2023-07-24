@@ -13,7 +13,7 @@
 
 This is a C program to solve a crossword puzzle. This program should read, from standard input, a puzzle grid and a set of words and should print the solved puzzle to standard output. 
 
-## Specification
+## <a name="Specification"></a> Specification
 
 A partially filled puzzle grid will be given in the input with stars, hashes, and letters. Stars indicate blocked cells (cannot be filled). Hashes indicate vacant cells needed to be filled with letters. The inputs will also include the words to be used, one per line, in random order. If  the program finds out that filling the crossword puzzle is impossible with the given words, it prints IMPOSSIBLE.
 Input:
@@ -22,12 +22,13 @@ the line is provided.
 Output:
 The completed puzzle, the message “IMPOSSIBLE” or “INVALID INPUT”. 
 
-## Output
+## <a name="Output"></a> Output
 
 The completed puzzle, the message “IMPOSSIBLE” or “INVALID INPUT” for invalid inputs
  Most testing will be on legal input; however, this  program may be tested on invalid input. When it determines its invalid input, it prints“INVALID INPUT”. 
 
-## Phase
+## <a name="Phase"></a> Phase
+
 **Phase I - Static memory allocation of array** <br>
 Static Memory allocation in C allocates size and location to a variable 
 that is fixed. The memory is allocated at the compile time (before the program is executed), it is known as compile time allocation. It uses a stack data structure. So, it will remain from the beginning to the end of the program. The execution time is efficiently controlled. This memory 
